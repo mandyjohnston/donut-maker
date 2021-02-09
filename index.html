@@ -3,12 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 4 Project</title>
+    <link rel="stylesheet" href="./src/CSS/layout.css" />
+    <link rel="stylesheet" href="./src/CSS/style.css" />
+    <title>MJ's Donuts</title>
 </head>
+
 <body>
-    <div class="container">
-        <div class="anchor"></div>
+    <div class="main-grid-container">
+        <header class="header">
+            <nav class="navbar">
+                <div class="au-dropdown-section">
+                <a href="#au-dropdown-content" class="au-button">About Us</a>
+                        <div id="au-dropdown-content" class="all-dropdown-content" style="visibility:hidden">
+                            Welcome to MJ's Donuts! We LOVE </br>
+                            donuts here, but we need your help!</br>
+                            To keep producing donuts, </br>
+                            you need to make donuts by </br>
+                            clicking the donut button - </br>
+                            to speed up your production, </br>
+                            use the Donut Multiplier - </br>
+                            feeling tired of clicking? </br>
+                            No problem! Just produce enough</br>
+                            donuts to buy an Auto Clicker. 
+                        </div>
+                    </div>
+                <div class="ins-dropdown-section">
+                <a href="#ins-dropdown-content" class="ins-button">Inspiration</a>
+                    <div id="ins-dropdown-content" class="all-dropdown-content" style="visibility:hidden">
+                        We can't take ALL the credit </br>
+                        for thinking of</br>
+                        this method to make donuts.</br> 
+                        We took a page from </br>
+                        the original Cookie Clicker.</br> 
+                        You can go visit it at </br>
+                        cookie-clicker.co/ 
+                    </div>
+                </div>
+
+                <div class="contact-dropdown-section">
+                <a href="#contact-dropdown-content" class="contact-button">Contact</a>
+                    <div id="contact-dropdown-content" class="all-dropdown-content" style="visibility:hidden">
+                        You can email us </br>
+                        at </br>
+                        mjsdonuts@gmail.com</br>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+
+            <section class="donut-clicker"> 
+                <h1>MJ's Donuts</h1>
+                <!-- <button class="donut-button"> -->
+                    <img class="donut-button" src="Images\ClipartKey_2005304.png">
+                <!-- </button> -->
+                <p>Donuts: </p>
+                <p class="donut-count" type="text">0</p>
+                <p class="donut-value">Donut Value: </p>
+            </section>
+
+            <section class= "auto-clicker">
+                <p class="auto-clicker-count"># of Auto Clickers</p>
+                <!-- Will need a disable feature -->
+                <button class="auto-clicker-button">Buy an Auto Clicker</button>
+                <p class="auto-clicker-price">Price of Auto Clickers</p>
+            </section>
+            
+            <section class= "donut-multiplier">
+                <p class="donut-multiplier-count"># of Donut Multipliers</p>
+                <!-- Will need a disable feature -->
+                <button class="donut-multiplier-button">Buy a Donut Multiplier</button>
+                <p class="donut-multiplier-price">Price of Donut Multiplier</p>
+            </section> 
+
+            <button class="reset-button">Reset game</button>
+
+
+        </main>
     </div>
-    <script src="/src/app.js"></script>
+
+
+    <script src="src/js/DonutMaker.js" type="module"></script>
+    <script src="src/js/app.js" type="module"></script>
 </body>
 </html>

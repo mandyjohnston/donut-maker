@@ -1,0 +1,73 @@
+body {
+    background-image: url("/Images/pexels-sharon-mccutcheon-3695378.jpg");
+    background-blend-mode: lighten;
+    background-size: cover;
+
+}
+
+.donut-button:hover {
+    transform: scale(1.03);
+}
+.donut-button:click {
+    transform: scale(1.0);
+}
+
+.all-dropdown-content {
+    color: rgb(245, 212, 212);
+    font-family: 'Lucida Sans';
+    font-size: 12px;
+    position: static;
+    background-color:rgb(51, 50, 50);
+}
+
+
+
+.navbar {
+    /* background-color: rgba(33, 47, 61, .8); */
+}
+
+a {
+    color: rgb(36, 35, 35);
+    font-size: 20px;
+    text-decoration: none;
+    font-family:'Lucida Sans';
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px cornsilk;
+}
+
+a:hover {
+    color: rgb(252, 225, 225);
+    background-color:rgb(51, 50, 50, .5);
+    font-size: 23px;
+    text-decoration: none;
+    font-family:'Lucida Sans';
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px cornsilk;
+}
+
+h1 {
+    color:rgba(0, 0, 0);
+    font-size: 50px; 
+    font-family: fantasy;
+}
+
+p{
+    font-weight: 400;
+    font-family: 'Lucida Sans';
+}
+
+
+.donut-button {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donut-count {
+    font-size: 35px; 
+    font-family: fantasy;
+}
+
+

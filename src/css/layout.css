@@ -1,0 +1,40 @@
+.main-grid-container {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.header { 
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.donut-clicker {
+    display: flex; 
+    flex-direction:column; 
+    justify-content: center;
+}
+
+.auto-clicker {
+    /* flex-direction:column; 
+    justify-content: center; */
+    float: right;
+    margin-right: 350px;
+}
+
+.donut-multiplier {
+ 
+    /* flex-direction:column; 
+    justify-content: center; */
+    float: left;
+    margin-left: 350px;
+}
+
+.reset-button {
+    margin-top: 130px;
+}
